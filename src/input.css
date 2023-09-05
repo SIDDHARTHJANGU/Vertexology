@@ -16,7 +16,7 @@
 .autoplay::after {
   content: "" !important;
   position: absolute !important;
-  right: 91% !important;
+  right: 90% !important;
   top: 0;
   bottom: 0;
   height: 100% !important;
@@ -25,4 +25,16 @@
 }
 .left_0 {
   left: 0% !important;
+}
+.txt-shadow {
+  text-shadow: 0px 4.909390449523926px 4.909390449523926px rgba(0, 0, 0, 0.25);
+}
+.txt-shadow1 {
+  text-shadow: 0px 3px 3.0395138263702393px rgba(0, 0, 0, 0.25);
+}
+.icon-1:hover svg circle {
+  fill: orangered;
+}
+.icon-2:hover svg path {
+  fill: white;
 }
