@@ -13,15 +13,22 @@
 .icon:hover svg path {
   fill: #000 !important;
 }
-.autoplay::after {
-  content: "" !important;
+.autoplay {
+  z-index: 2;
+}
+.autoplay .slick-list {
+  overflow: visible !important;
+  padding: 0 20% 0 0 !important;
+  position: relative !important !;
+}
+.autoplay .slick-list::after {
+  content: " " !important;
   position: absolute !important;
-  right: 90% !important;
-  top: 0;
-  bottom: 0;
-  height: 100% !important;
-  width: 1000px !important;
-  background: white !important;
+  top: 0px !important;
+  bottom: 0px !important;
+  width: 4000px !important;
+  right: 100% !important;
+  background-color: white !important;
 }
 .left_0 {
   left: 0% !important;

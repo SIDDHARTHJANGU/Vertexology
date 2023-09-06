@@ -82,7 +82,7 @@
             </nav>
             <div class="flex justify-center text-center ">
                 <h1
-                    class="font-black  lg:text-[138px] text-6xl txt-shadow first-letter: text-white mt-80 font-[Gilroy-bold]">
+                    class="font-black  lg:text-[138px] text-6xl  txt-shadow first-letter: text-white lg:mt-80 mt-40 font-[Gilroy-bold]">
                     3D PRODUCT
                     <span class="block  mt-6">Animation</span>
                 </h1>
@@ -129,7 +129,7 @@
     <!-- Our Portfolios -->
     <section class="relative overflow-hidden" id="products">
         <div>
-            <img class="absolute  top-[90%]" src="./assets/img/svg/icon7.svg" alt="#">
+            <img class="absolute  top-[90%] z-10" src="./assets/img/svg/icon7.svg" alt="#">
         </div>
         <div class="container mx-auto px-4 lg:px-0">
             <div class="flex flex-wrap  justify-between items-center">
@@ -186,17 +186,19 @@
                     </span>
                 </div>
             </div>
+            <div class="autoplay mt-6  ">
+                <img class="w-full ms-6" src="./assets/img/png/flower.png" alt="#">
+                <img class="w-full ms-6" src="./assets/img/png/chair1.png" alt="#">
+                <img class="w-full ms-6" src="./assets/img/png/glass.png" alt="#">
+                <img class="w-full ms-6" src="./assets/img/png/home.png" alt="#">
+                <img class="w-full ms-6" src="./assets/img/png/flower.png" alt="#">
+                <img class="w-full ms-6" src="./assets/img/png/chair1.png" alt="#">
+                <img class="w-full ms-6" src="./assets/img/png/glass.png" alt="#">
+                <img class="w-full ms-6" src="./assets/img/png/home.png" alt="#">
+            </div>
         </div>
-        <div class="autoplay mt-6  ">
-            <img class="w-full ms-6" src="./assets/img/png/flower.png" alt="#">
-            <img class="w-full ms-6" src="./assets/img/png/chair1.png" alt="#">
-            <img class="w-full ms-6" src="./assets/img/png/glass.png" alt="#">
-            <img class="w-full ms-6" src="./assets/img/png/home.png" alt="#">
-            <img class="w-full ms-6" src="./assets/img/png/flower.png" alt="#">
-            <img class="w-full ms-6" src="./assets/img/png/chair1.png" alt="#">
-            <img class="w-full ms-6" src="./assets/img/png/glass.png" alt="#">
-            <img class="w-full ms-6" src="./assets/img/png/home.png" alt="#">
-        </div>
+
+
     </section>
     <!-- Sed volutpat  -->
     <section class="bg-black mt-32 relative overflow-hidden ">
@@ -208,7 +210,7 @@
                 <img class="w-[100%]" src="./assets/img/png/red.png" alt="#">
             </div>
             <div class="w-[100%] lg:w-[50%]  px-4 mt-10 lg:mt-0">
-                <h2 class="font-black lg:text-4xl text-4xl text-white ml-0 lg:ml-24 font-[Gilroy-bold]">SED VOLUTPAT
+                <h2 class="font-black xl:text-5xl text-4xl text-white ml-0 lg:ml-24 font-[Gilroy-bold]">SED VOLUTPAT
                     <span class="lg:block mt-4">ERAT
                         DIGINISSIM</span>
                     <span class="mt-4 lg:block">IACULIS AENEAN</span>
@@ -235,9 +237,9 @@
         <div>
             <img class="absolute top-[85%] left-[5%]" src="./assets/img/svg/icon3.svg" alt="#">
         </div>
-        <div class="flex flex-wrap items-center text-center lg:text-start  ">
+        <div class="flex flex-wrap flex-col-reverse lg:flex-row items-center text-center lg:text-start  ">
             <div class=" w-[100%] lg:w-[50%] px-4 mt-10 lg:mt-0">
-                <h2 class="lg:text-5xl text-4xl font-black text-black  ml-0 lg:ml-24 font-[Gilroy-bold]">AT TEMPOR,
+                <h2 class="xl:text-5xl text-4xl font-black text-black  ml-0 lg:ml-24 font-[Gilroy-bold]">AT TEMPOR,
                     <span class="lg:block mt-4">AMET
                         VIVERRA</span>
                     <span class="lg:block mt-4">EU QUISQUE</span>
@@ -274,9 +276,9 @@
             </div>
             <div class="w-[100%] lg:w-[50%] px-4 mt-10 lg:mt-0">
                 <p class="text-base font-normal text-white ml-0 lg:ml-24 font-[Gilroy-light]">ABOUT ME</p>
-                <h2 class="lg:text-4xl text-3xl  font-black text-white mt-4  ml-0 lg:ml-24 font-[Gilroy-bold]">JOHN
+                <h2 class="xl:text-5xl text-4xl  font-black text-white mt-4  ml-0 lg:ml-24 font-[Gilroy-bold]">JOHN
                     SMITH</h2>
-                <p class="lg:text-base text-[14PX] font-normal text-white mt-4 ml-0 lg:ml-24 font-[Gilroy-light]">
+                <p class="xl:text-lg text-[16px] font-normal text-white mt-4 ml-0 lg:ml-24 font-[Gilroy-light]">
                     Euismod nunc mauris
                     lacinia sapien
                     nulla accumsan
@@ -509,7 +511,7 @@
     $('.autoplay').slick({
         dots: false,
         Infinity: true,
-        slidesToShow: 3.10,
+        slidesToShow: 2.3,
         slidesToScroll: 1,
         autoplay: true,
         autoplaySpeed: 0,
@@ -520,7 +522,7 @@
             {
                 breakpoint: 1024,
                 settings: {
-                    slidesToShow: 3.10,
+                    slidesToShow: 2.3,
                     slidesToScroll: 1,
 
                 }
@@ -528,14 +530,14 @@
             {
                 breakpoint: 600,
                 settings: {
-                    slidesToShow: 2.10,
+                    slidesToShow: 2,
                     slidesToScroll: 1,
                 }
             },
             {
                 breakpoint: 480,
                 settings: {
-                    slidesToShow: 1.10,
+                    slidesToShow: 1.1,
                     slidesToScroll: 1,
                 }
             }
@@ -571,5 +573,6 @@
         document.getElementById("Nav-Bar").classList.toggle("left_0")
     }
 </script>
+
 
 </html>
