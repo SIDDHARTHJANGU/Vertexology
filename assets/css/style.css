@@ -664,14 +664,6 @@ video {
   top: 90%;
 }
 
-.top-\[100\%\] {
-  top: 100%;
-}
-
-.top-\[95\%\] {
-  top: 95%;
-}
-
 .z-10 {
   z-index: 10;
 }
@@ -759,28 +751,12 @@ video {
   margin-top: 1rem;
 }
 
-.mt-6 {
-  margin-top: 1.5rem;
-}
-
-.mt-80 {
-  margin-top: 20rem;
-}
-
-.mt-60 {
-  margin-top: 15rem;
-}
-
-.mt-44 {
-  margin-top: 11rem;
-}
-
-.mt-48 {
-  margin-top: 12rem;
-}
-
 .mt-40 {
   margin-top: 10rem;
+}
+
+.mt-6 {
+  margin-top: 1.5rem;
 }
 
 .block {
@@ -1119,19 +1095,6 @@ video {
   line-height: 1.75rem;
 }
 
-.text-5xl {
-  font-size: 3rem;
-  line-height: 1;
-}
-
-.text-\[15px\] {
-  font-size: 15px;
-}
-
-.text-\[14px\] {
-  font-size: 14px;
-}
-
 .font-black {
   font-weight: 900;
 }
@@ -1171,10 +1134,6 @@ video {
   color: rgb(81 81 81 / var(--tw-text-opacity));
 }
 
-.text-\[14PX\] {
-  color: 14PX;
-}
-
 .text-black {
   --tw-text-opacity: 1;
   color: rgb(0 0 0 / var(--tw-text-opacity));
@@ -1188,14 +1147,6 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
-.text-\[15PX\] {
-  color: 15PX;
-}
-
-.text-\[px\] {
-  color: px;
 }
 
 .opacity-0 {
@@ -1263,7 +1214,7 @@ video {
 .autoplay .slick-list {
   overflow: visible !important;
   padding: 0 20% 0 0 !important;
-  position: relative !important !;
+  position: relative !important ;
 }
 
 .autoplay .slick-list::after {
@@ -1414,25 +1365,6 @@ video {
     font-size: 3rem;
     line-height: 1;
   }
-
-  .md\:text-6xl {
-    font-size: 3.75rem;
-    line-height: 1;
-  }
-
-  .md\:text-7xl {
-    font-size: 4.5rem;
-    line-height: 1;
-  }
-
-  .md\:text-8xl {
-    font-size: 6rem;
-    line-height: 1;
-  }
-
-  .md\:text-\[120px\] {
-    font-size: 120px;
-  }
 }
 
 @media (min-width: 1024px) {
@@ -1553,11 +1485,6 @@ video {
     text-align: start;
   }
 
-  .lg\:text-4xl {
-    font-size: 2.25rem;
-    line-height: 2.5rem;
-  }
-
   .lg\:text-5xl {
     font-size: 3rem;
     line-height: 1;
@@ -1576,11 +1503,6 @@ video {
     font-size: 1rem;
     line-height: 1.5rem;
   }
-
-  .lg\:text-lg {
-    font-size: 1.125rem;
-    line-height: 1.75rem;
-  }
 }
 
 @media (min-width: 1280px) {
@@ -1595,11 +1517,6 @@ video {
   .xl\:px-16 {
     padding-left: 4rem;
     padding-right: 4rem;
-  }
-
-  .xl\:text-4xl {
-    font-size: 2.25rem;
-    line-height: 2.5rem;
   }
 
   .xl\:text-5xl {

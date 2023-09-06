@@ -19,7 +19,7 @@
 .autoplay .slick-list {
   overflow: visible !important;
   padding: 0 20% 0 0 !important;
-  position: relative !important !;
+  position: relative !important ;
 }
 .autoplay .slick-list::after {
   content: " " !important;
