@@ -4,11 +4,11 @@
 
 @font-face {
   font-family: "Gilroy-bold";
-  src: url(../dist/font-family/Gilroy-ExtraBold.otf);
+  src: url(../font-family/Gilroy-ExtraBold.otf);
 }
 @font-face {
   font-family: "Gilroy-light";
-  src: url(../dist/font-family/Gilroy-Light.otf);
+  src: url(../font-family/Gilroy-Light.otf);
 }
 .icon:hover svg path {
   fill: #000 !important;
