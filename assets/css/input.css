@@ -36,9 +36,7 @@
 .txt-shadow {
   text-shadow: 0px 4.909390449523926px 4.909390449523926px rgba(0, 0, 0, 0.25);
 }
-.txt-shadow1 {
-  text-shadow: 0px 3px 3.0395138263702393px rgba(0, 0, 0, 0.25);
-}
+
 .icon-1:hover svg circle {
   fill: orangered;
 }
