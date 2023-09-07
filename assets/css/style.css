@@ -664,6 +664,10 @@ video {
   top: 92%;
 }
 
+.top-\[95\%\] {
+  top: 95%;
+}
+
 .z-10 {
   z-index: 10;
 }
@@ -1036,6 +1040,10 @@ video {
   padding-top: 3.5rem;
 }
 
+.pb-32 {
+  padding-bottom: 8rem;
+}
+
 .text-center {
   text-align: center;
 }
@@ -1211,10 +1219,6 @@ video {
   fill: #000 !important;
 }
 
-.autoplay {
-  z-index: 2;
-}
-
 .autoplay .slick-list {
   overflow: visible !important;
   padding: 0 20% 0 0 !important;
@@ -1361,6 +1365,18 @@ video {
 }
 
 @media (min-width: 768px) {
+  .md\:block {
+    display: block;
+  }
+
+  .md\:justify-between {
+    justify-content: space-between;
+  }
+
+  .md\:text-start {
+    text-align: start;
+  }
+
   .md\:text-5xl {
     font-size: 3rem;
     line-height: 1;
@@ -1395,6 +1411,10 @@ video {
 
   .lg\:mt-64 {
     margin-top: 16rem;
+  }
+
+  .lg\:block {
+    display: block;
   }
 
   .lg\:hidden {
@@ -1498,6 +1518,14 @@ video {
     font-size: 1rem;
     line-height: 1.5rem;
   }
+
+  .lg\:text-\[16px\] {
+    font-size: 16px;
+  }
+
+  .lg\:text-\[65px\] {
+    font-size: 65px;
+  }
 }
 
 @media (min-width: 1280px) {
@@ -1529,6 +1557,11 @@ video {
   .xl\:text-lg {
     font-size: 1.125rem;
     line-height: 1.75rem;
+  }
+
+  .xl\:text-6xl {
+    font-size: 3.75rem;
+    line-height: 1;
   }
 }
 

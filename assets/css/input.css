@@ -13,9 +13,7 @@
 .icon:hover svg path {
   fill: #000 !important;
 }
-.autoplay {
-  z-index: 2;
-}
+
 .autoplay .slick-list {
   overflow: visible !important;
   padding: 0 20% 0 0 !important;
